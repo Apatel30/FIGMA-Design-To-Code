@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Figma AyushibenPatel</title>
+    <!-- load the reset -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css">
+    <!-- bring in the google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    <!-- bring in the styling for the page -->
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <div id="conteiner">
+      <!-- header will contain company logo and main navigation -->
+      <header id="header">
+        <div class="grid">
+          <svg width="70" height="64" viewBox="0 0 70 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M47.25 17.6H22.75C20.817 17.6 19.25 19.0327 19.25 20.8V43.2C19.25 44.9673 20.817 46.4 22.75 46.4H47.25C49.183 46.4 50.75 44.9673 50.75 43.2V20.8C50.75 19.0327 49.183 17.6 47.25 17.6Z" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M19.25 27.2H50.75" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M29.75 46.4V27.2" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>            
+        </div>
+        <div class="logoname">
+          <p class="logo_name">Grid</p>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li class="items"><a href="#header">How it works</a></li> 
+            <li class="items"><a href="#relatedimages">Who we are</a></li> 
+            <li class="items"><a href="#sidebar">What we do</a></li>
+            <li class="items"><a href="#contact">Contact us</a></li>
+          </ul>
+        </nav>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <button class="sign_in">sign in</button>
+      </header>
+      <div id="herosection">
+        <!--layout of a heroimage sections-->
+        <h1>Combine  
+            <svg width="191" height="51" viewBox="0 0 191 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="191" height="51" rx="25.5" fill="#55EFC4"/>
+            </svg>
+            <span class="fine">fine</span> images
+        </h1>
+        <h2>To represent a product</h2>
+        <!-- Photo Grid -->
+        <div class="row"> 
+          <div class="column">
+            <h3>Resize the browser window to see the responsive effect.</h3>
+            <img src="/img/image.png" alt="image"> 
+          </div>
+          <div class="column">
+            <img src="/img/human.png" alt="human">
+            <img src="/img/book.png" alt="book">
+          </div>  
+          <div class="column">
+            <h3>Resize the browser window to see the responsive effect.</h3>
+            <img src="/img/A.png" alt="A">
+            <img src="/img/girl.png" alt="girl">
+          </div>
+          <div class="column">
+            <img src="/img/blue.png" alt="blue">
+            <img src="/img/window.png" alt="window">
+            <img src="/img/colourful.png" alt="colourful">
+          </div>
+            
+        </div>
+      </div>
+       <!--layout of a conatains sections-->
+      <div id="extracontains">
+        <section class="kit">
+          <h4>Delivering good designs since 1954 🚚💨</h4>
+          <p>We’re the first multi-purpose design kit solutions for businesses. We help you bridge gaps between your layouts, templates and developers to empower all involved.</p>
+        </section>
+      </div>
+      <!--layout of a learn more section-->
+      <div id="relatedimages">
+        <section class="reimg">
+          <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="70" height="70" rx="35" fill="#E84393"/>
+            <g filter="url(#filter0_dd)">
+              <path d="M36.1134 19.6C37.4808 19.8668 38.7375 20.5356 39.7227 21.5207C40.7078 22.5059 41.3766 23.7626 41.6434 25.13M36.1134 14C38.9543 14.3156 41.6036 15.5878 43.6261 17.6078C45.6486 19.6278 46.9242 22.2754 47.2434 25.116M45.8434 36.288V40.488C45.8449 40.8779 45.7651 41.2638 45.6089 41.6211C45.4527 41.9783 45.2236 42.299 44.9363 42.5626C44.649 42.8262 44.3098 43.0269 43.9404 43.1518C43.5711 43.2767 43.1797 43.3231 42.7914 43.288C38.4833 42.8199 34.3452 41.3478 30.7094 38.99C27.3267 36.8405 24.4588 33.9726 22.3094 30.59C19.9433 26.9377 18.4709 22.7794 18.0114 18.452C17.9764 18.0649 18.0224 17.6747 18.1465 17.3063C18.2705 16.9379 18.47 16.5994 18.732 16.3123C18.9941 16.0252 19.3131 15.7958 19.6687 15.6387C20.0243 15.4817 20.4086 15.4004 20.7974 15.4H24.9974C25.6768 15.3933 26.3355 15.6339 26.8506 16.0769C27.3658 16.52 27.7023 17.1352 27.7974 17.808C27.9746 19.1521 28.3034 20.4718 28.7774 21.742C28.9657 22.2431 29.0065 22.7877 28.8948 23.3112C28.7832 23.8348 28.5238 24.3154 28.1474 24.696L26.3694 26.474C28.3623 29.979 31.2644 32.881 34.7694 34.874L36.5474 33.096C36.928 32.7196 37.4086 32.4602 37.9321 32.3485C38.4557 32.2369 39.0003 32.2776 39.5014 32.466C40.7715 32.94 42.0913 33.2687 43.4354 33.446C44.1154 33.5419 44.7365 33.8845 45.1805 34.4085C45.6245 34.9325 45.8604 35.6014 45.8434 36.288Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs>
+              <filter id="filter0_dd" x="-12" y="-12" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="8"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+                <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="3"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+                <feBlend mode="multiply" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+              </filter>
+            </defs>
+          </svg>
+          <h5>Support</h5> 
+          <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+          <button class="button1">Learn more</button>
+        </section>
+        <section class="reimg">
+          <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="70" height="70" rx="35" fill="#0984E3"/>
+            <g filter="url(#filter0_dd)">
+              <path d="M44.8946 33.446C44.0039 35.5523 42.6109 37.4083 40.8372 38.8518C39.0635 40.2953 36.9632 41.2824 34.72 41.7267C32.4767 42.171 30.1588 42.059 27.9688 41.4005C25.7788 40.742 23.7834 39.5571 22.1572 37.9493C20.5309 36.3415 19.3233 34.3598 18.6399 32.1775C17.9564 29.9952 17.818 27.6787 18.2366 25.4305C18.6553 23.1823 19.6183 21.0709 21.0414 19.2808C22.4646 17.4908 24.3046 16.0766 26.4006 15.162" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M46.0005 28C46.0005 26.1615 45.6384 24.341 44.9349 22.6424C44.2313 20.9439 43.2001 19.4005 41.9 18.1005C40.6 16.8005 39.0567 15.7693 37.3581 15.0657C35.6596 14.3621 33.8391 14 32.0005 14V28H46.0005Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs>
+              <filter id="filter0_dd" x="-12" y="-12" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="8"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+                <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="3"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+                <feBlend mode="multiply" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+              </filter>
+            </defs>
+          </svg>
+          <h5>Sales growth</h5> 
+          <p>Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
+          <button class="button1">Learn more</button>               
+        </section>
+        <section class="reimg">
+          <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="70" height="70" rx="35" fill="#6C5CE7"/>
+            <g filter="url(#filter0_dd)">
+              <path d="M32.4 14L18.4 30.8H31L29.6 42L43.6 25.2H31L32.4 14Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs>
+              <filter id="filter0_dd" x="-13" y="-12" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="8"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+                <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="3"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+                <feBlend mode="multiply" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+              </filter>
+            </defs>
+          </svg>
+          <h5>Coponents-driven</h5> 
+          <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+          <button class="button1">Learn more</button>                 
+        </section>
+        <section class="reimg">
+          <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="70" height="70" rx="35" fill="#00B894"/>
+            <g filter="url(#filter0_dd)">
+             <path d="M25 42H20.8C20.0574 42 19.3452 41.705 18.8201 41.1799C18.295 40.6548 18 39.9426 18 39.2V29.4C18 28.6574 18.295 27.9452 18.8201 27.4201C19.3452 26.895 20.0574 26.6 20.8 26.6H25M34.8 23.8V18.2C34.8 17.0861 34.3575 16.0178 33.5698 15.2302C32.7822 14.4425 31.7139 14 30.6 14L25 26.6V42H40.792C41.4673 42.0076 42.1225 41.771 42.6371 41.3336C43.1516 40.8962 43.4907 40.2877 43.592 39.62L45.524 27.02C45.5849 26.6187 45.5578 26.209 45.4447 25.8192C45.3315 25.4293 45.1349 25.0688 44.8686 24.7625C44.6023 24.4562 44.2725 24.2115 43.9022 24.0453C43.5319 23.8791 43.1299 23.7954 42.724 23.8H34.8Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <defs>
+              <filter id="filter0_dd" x="-12" y="-12" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="8"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+                <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="3"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+                <feBlend mode="multiply" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+              </filter>
+            </defs>
+          </svg>
+          <h5>Swap the icon</h5> 
+          <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
+          <button class="button1">Learn more</button> 
+        </section>
+      </div>
+      <!-- footer contains a location,contact, contact us form and link of top of the page -->
+      <footer id="contact" class="grid">
+        <!--  contact details-->
+        <p class="newfooter">Copyright © 2018 • Your Company
+          All rights reserved
+        </p>
+        <p class="newfooter1">
+          Made in Setproduct.com
+        </p>
+        <p class="newfooter1">
+          One man digital agency
+        </p>
+        <p class="newfooter2">
+          hello@setproduct.com
+        </p>
+        <section>
+          <h6>follow us</h6>
+          <div id="app_icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20Z" fill="#FFEAA7"/>
+              <path d="M25 10H22C20.6739 10 19.4021 10.5268 18.4645 11.4645C17.5268 12.4021 17 13.6739 17 15V18H14V22H17V30H21V22H24L25 18H21V15C21 14.7348 21.1054 14.4804 21.2929 14.2929C21.4804 14.1054 21.7348 14 22 14H25V10Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 16C25.5913 16 27.1174 16.6321 28.2426 17.7574C29.3679 18.8826 30 20.4087 30 22V29H26V22C26 21.4696 25.7893 20.9609 25.4142 20.5858C25.0391 20.2107 24.5304 20 24 20C23.4696 20 22.9609 20.2107 22.5858 20.5858C22.2107 20.9609 22 21.4696 22 22V29H18V22C18 20.4087 18.6321 18.8826 19.7574 17.7574C20.8826 16.6321 22.4087 16 24 16V16Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 17H10V29H14V17Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.0744 17.0021C27.8044 9.41214 24.5344 7.65214 16.9944 9.92214C9.4544 12.1921 7.6444 15.4621 9.9144 23.0021C12.1844 30.5421 15.4544 32.3521 22.9944 30.0821C30.5344 27.8121 32.3444 24.5421 30.0744 17.0021Z" stroke="#5C5C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20.5645 13.9921L24.1445 24.3921" stroke="#5C5C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15.8444 15.6121L19.4244 26.0121" stroke="#5C5C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M24.3844 15.8522L13.9844 19.4322" stroke="#5C5C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M26.0044 20.5721L15.6044 24.1521" stroke="#5C5C5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M31 11.0101C30.0424 11.6855 28.9821 12.2022 27.86 12.5401C27.2577 11.8476 26.4573 11.3567 25.567 11.134C24.6767 10.9112 23.7395 10.9673 22.8821 11.2945C22.0247 11.6218 21.2884 12.2045 20.773 12.9638C20.2575 13.7231 19.9877 14.6224 20 15.5401V16.5401C18.2426 16.5856 16.5013 16.1959 14.931 15.4055C13.3607 14.6151 12.0103 13.4487 11 12.0101C11 12.0101 7 21.0101 16 25.0101C13.9405 26.408 11.4872 27.109 9 27.0101C18 32.0101 29 27.0101 29 15.5101C28.9991 15.2315 28.9723 14.9537 28.92 14.6801C29.9406 13.6735 30.6608 12.4028 31 11.0101V11.0101Z" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div> 
+          <h6>information</h6>
+          <table class="information">
+            <tr>
+              <td>About Fapster app</td>
+              <td>Onhovered / Active</td>
+              <td>We are hiring!</td>
+            </tr>
+            <tr>
+              <td>Get in Touch</td>
+              <td>Privacy Policy</td>
+              <td>Resources</td>
+            </tr>
+            <tr>
+              <td>Things We Like</td>
+              <td>Terms of Service</td>
+              <td></td>
+            </tr>
+          </table>            
+        </section>
+        <section>
+          <h6>follow us</h6>
+          <p class="email">hello@fapsterapp.com</p>
+          <h6>keep in touch</h6>
+          <!--  contact us form for vistors -->   
+          <form action="/" method="post">
+            <fieldset>
+                <div>
+                  <label for="name"></label>
+                  <input type="text" name="name" id="name" maxlength="10" class="field" placeholder="Your name" required />
+                  <label for="email"></label>
+                  <input type="email" name="emai" id="email" maxlength="25" class="field" placeholder="E-mail" required/>
+                </div>
+                <div>
+                  <label for="message"></label>
+                  <textarea id="message" name="message" required placeholder="Leave your message|"></textarea>                   
+                  <input type="submit" name="SEND" id="submit" value="SEND" /> 
+                  <a href="#header" id="display"></a>
+                </div>
+            </fieldset>
+          </form> 
+        </section>  
+        <svg width="1440" height="104" viewBox="0 0 1440 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <clipPath id="clip0">
+              <rect width="1440" height="545" fill="white" transform="translate(1440 545) rotate(-180)"/>
+            </clipPath>
+          </defs>
+        </svg>
+        <svg width="1440" height="102" viewBox="0 0 1440 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M-0.333822 543.58L-0.583526 17.1366C-0.583526 17.1366 102.172 49.726 220.913 17.2075C339.654 -15.311 399.901 2.67057 565.331 59.0554C730.762 115.44 808.875 7.45977 1046 50.0384C1283.12 92.6171 1251.81 -46.9066 1439.77 17.611C1439.81 95.8883 1440.01 483.507 1440.04 544.056C1295.17 544.008 -0.333822 543.58 -0.333822 543.58Z" fill="#FFEAA7"/>
+        </svg>
+      </footer>   
+    </div>  
+    <script src="main.js"></script>  
+  </body>
+</html>
